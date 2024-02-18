@@ -82,6 +82,8 @@ class NotificationListenerService : NotificationListenerService() {
                 sendProgressToAccessibilityService(
                     sbn.packageName, percentageProgress, 100, downloadPriority
                 )
+            } else {
+                sendRemovalRequestToAccessibilityService(sbn.packageName)
             }
         }
     }
@@ -212,10 +214,10 @@ class NotificationListenerService : NotificationListenerService() {
 
     private fun getProgressFromPercentage(sbn: StatusBarNotification): Int {
         val extras = sbn.notification.extras
-        val title = extras.getCharSequence("android.title").toString()
-        val text = extras.getCharSequence("android.text").toString()
-        val subText = extras.getCharSequence("android.subText").toString()
-        val bigText = extras.getCharSequence("android.bigText").toString()
+        val title = extras.getCharSequence("android.title")?.toString() ?: ""
+        val text = extras.getCharSequence("android.text")?.toString() ?: ""
+        val subText = extras.getCharSequence("android.subText")?.toString() ?: ""
+        val bigText = extras.getCharSequence("android.bigText")?.toString() ?: ""
         val textLines = extras.getCharSequenceArray("android.textLines")
 
         val percentageProgress = title.substringBefore("%").toFloatOrNull() ?:
@@ -244,6 +246,13 @@ class NotificationListenerService : NotificationListenerService() {
     ) {
         val appInDatabase = appsRepository.getApp(packageName)
         if (!showForApp(appInDatabase, packageName)) {
+            return
+        }
+
+        val activeNotifications = try {
+            activeNotifications
+        } catch (e: Exception) {
+            // TODO
             return
         }
 

@@ -20,7 +20,6 @@
     <string name="prefsProgressBarAlignmentEntryLeft">Sola hizalı</string>
     <string name="prefsProgressBarAlignmentEntryCenter">Ortalanmış</string>
     <string name="prefsProgressBarAlignmentEntryRight">Sağa hizalı</string>
-    <string name="prefsCircularBarOnlyPortraitTitle">Yalnızca dikey modda kullan</string>
     <string name="prefsRoundedCornersTitle">İlerleme çubuğunun uçlarını yuvarla</string>
     <string name="prefsShowInLockScreenTitle">Kilit ekranında ilerleme çubuğunu göster</string>
     <string name="prefsChangeColorTitle">İlerleme çubuğunun rengini değiştir</string>
@@ -40,14 +39,12 @@
     <string name="prefsProgressBarMarginRightSummary">Ekranın sağ kısmı ile olan aralığı değiştir</string>
     <string name="prefsShowForDownloadsSummary">İçerik transfer ederken ilerleme çubuğunu görüntüleme</string>
     <string name="colorRed">Kırmızı</string>
-    <string name="prefsCircularBarOnlyPortraitSummary">Yatay modda doğrusal ilerleme çubuğunu kullan</string>
     <string name="perAppSettingsEmptyView">İlerleme çubuğu bulunamadı. İlerleme çubuğu olan uygulamalar siz cihazınızı kullandıkça keşfedilir.</string>
     <string name="prefsShowBelowNotchTitle">Ekranın altında göster</string>
     <string name="prefsCategoryGeneral">genel</string>
     <string name="prefsShowInLockScreenSummary">Aynı zamanda AOD\'(Always On Display)de de gösterilecek</string>
     <string name="prefsProgressBarMarginTopTitle">Üstten kenar boşluğu</string>
     <string name="prefsSAWPermissionTitle">Diğer uygulamaların üzerinde göstermeye izin ver</string>
-    <string name="prefsDisableInLandscapeTitle">Yatay modu devredışı bırak</string>
     <string name="prefsProgressBarAlignmentTitle">İlerleme çubuğunun hizalamasını değiştir</string>
     <string name="prefsBlackBackgroundTitle">Siyah arkaplan kullan</string>
     <string name="prefsPerAppSettingsSummary">Uygulamaların bu özelliği kullanıp kullanmayacağını seçin</string>
@@ -80,4 +77,9 @@
     <string name="prefsSAWPermissionSummary">İlerleme çubuğunu göstermek için gerekli</string>
     <string name="colorTeal">Teal</string>
     <string name="colorPurple">Mor</string>
+    <string name="prefsProgressBarStylePortraitTitle">Dikey ilerleme çubuğu görünümü</string>
+    <string name="prefsProgressBarStyleLandscapeTitle">Yatay ilerleme çubuğu görünümü</string>
+    <string name="prefsProgressBarStyleEntryNone">İlerleme çubuğu yok</string>
+    <string name="prefsDisableInFullScreenTitle">Tam ekran modunda devre dışı bırak</string>
+    <string name="prefsDisableInFullScreenSummary">Tam ekran uygulamalarda ilerleme çubuğunu gizle</string>
 </resources>

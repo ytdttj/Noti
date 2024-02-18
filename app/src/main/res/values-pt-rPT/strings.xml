@@ -14,6 +14,10 @@
     <string name="prefsSAWPermissionSummary">Necessário para mostrar o overlay da barra de progresso</string>
     <string name="prefsCategoryCustomization">personalização</string>
     <string name="prefsProgressBarStyleTitle">Selecionar estilo da barra de progresso</string>
+    <string name="prefsProgressBarStylePortraitTitle">Estilo da barra de progresso em modo vertical</string>
+    <string name="prefsProgressBarStyleLandscapeTitle">Estilo da barra de progresso em modo horizontal</string>
+    <string name="advancedOptions">Opções Avançadas</string>
+    <string name="prefsProgressBarStyleEntryNone">Nenhuma barra de progresso</string>
     <string name="prefsProgressBarStyleEntryLinear">Barra de progresso linear</string>
     <string name="prefsProgressBarStyleEntryCircular">Barra de progresso circular</string>
     <string name="prefsCategoryTweaks">ajustes</string>
@@ -35,13 +39,10 @@
     <string name="prefsProgressBarAlignmentEntryLeft">Alinhado à esquerda</string>
     <string name="prefsProgressBarAlignmentEntryCenter">Centrado</string>
     <string name="prefsProgressBarAlignmentEntryRight">Alinhado à direita</string>
-    <string name="prefsCircularBarOnlyPortraitTitle">Usar apenas em modo vertical</string>
-    <string name="prefsCircularBarOnlyPortraitSummary">Mudar para barra de progresso linear quando na horizontal</string>
     <string name="prefsRoundedCornersTitle">Usar barra de progresso com cantos arredondados</string>
     <string name="prefsRoundedCornersSummary">Mudar para barra de progresso com pontas arredondadas</string>
     <string name="prefsShowInLockScreenTitle">Mostrar barra de progresso no ecrã de bloqueio</string>
     <string name="prefsShowInLockScreenSummary">Irá também aparecer no always on display</string>
-    <string name="prefsDisableInLandscapeTitle">Desativar em modo horizontal</string>
     <string name="prefsChangeColorTitle">Mudar cor da barra de progresso</string>
     <string name="prefsCategoryMore">mais</string>
     <string name="prefsCalentileTitle">Experimentar o CalenTile no Google Play</string>
@@ -80,4 +81,6 @@
     <string name="prefsShowForMediaSummary">Exibir barra de progresso ao reproduzir música</string>
     <string name="prefsCategoryGeneral">geral</string>
     <string name="holePunchInstruction">Mudar alinhamento em ajustes da barra de progresso circular</string>
+    <string name="prefsDisableInFullScreenTitle">Desativar em ecrã inteiro</string>
+    <string name="prefsDisableInFullScreenSummary">Esconder barra de progresso em aplicações em ecrã inteiro</string>
 </resources>

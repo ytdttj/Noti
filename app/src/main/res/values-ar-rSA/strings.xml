@@ -31,8 +31,6 @@
     <string name="prefsProgressBarAlignmentEntryLeft">محاذاة لليسار</string>
     <string name="prefsProgressBarAlignmentEntryCenter">توسيط</string>
     <string name="prefsProgressBarAlignmentEntryRight">محاذاة لليمين</string>
-    <string name="prefsCircularBarOnlyPortraitTitle">استخدمه فقط في الوضع العمودي</string>
-    <string name="prefsCircularBarOnlyPortraitSummary">التبديل إلى شريط التقدم الخطي عندما تكون في الوضع الأفقي</string>
     <string name="prefsRoundedCornersTitle">استخدم شريط التقدم بزوايا مستديرة</string>
     <string name="prefsRoundedCornersSummary">التبديل إلى شريط التقدم ذو الأطراف المستديرة</string>
     <string name="prefsShowInLockScreenTitle">إظهار شريط التقدم في شاشة القفل</string>
@@ -73,7 +71,6 @@
     <string name="prefsCircularBarShareConfigSummary">اسمح للآخرين الذين لديهم نفس الجهاز باستخدام التكوين الخاص بك</string>
     <string name="prefsShowForMediaTitle">إظهار شريط تقدم الوسائط</string>
     <string name="prefsShowForMediaSummary">عرض شريط التقدم عند تشغيل الموسيقى</string>
-    <string name="prefsDisableInLandscapeTitle">تعطيل في الوضع الأفقي</string>
     <string name="prefsBatteryOptimization">قد تحتاج إلى تعطيل تحسينات البطارية والسماح ببدء التشغيل التلقائي لـ noti للعمل في الخلفية</string>
     <string name="reset">إعادة ضبط</string>
     <string name="prefsCategoryGeneral">عام</string>

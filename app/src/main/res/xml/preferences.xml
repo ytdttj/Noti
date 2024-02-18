@@ -27,7 +27,7 @@
         </Preference>
 
         <!--Dialog required for google to approve the app-->
-        <com.gustavoas.noti.AccessibilityPermissionDialog
+        <com.gustavoas.noti.preferences.AccessibilityPermissionDialog
             android:key="accessibilityPermission"
             android:title="@string/prefsAccessibilityPermissionTitle"
             android:summary="@string/prefsAccessibilityPermissionSummary"
@@ -54,16 +54,14 @@
         app:allowDividerAbove="false"
         app:allowDividerBelow="false">
 
-        <ListPreference
+        <com.gustavoas.noti.preferences.BarStylesListPreference
             android:key="progressBarStyle"
             android:title="@string/prefsProgressBarStyleTitle"
-            app:useSimpleSummaryProvider="true"
             app:singleLineTitle="false"
             android:defaultValue="linear"
             app:entries="@array/progressBarStyle"
             app:entryValues="@array/progressBarStyleValues"
-            app:icon="@drawable/ic_progress_bar_style"
-            app:negativeButtonText=""/>
+            app:icon="@drawable/ic_progress_bar_style" />
 
         <Preference
             android:key="CircularBarFragment"
@@ -104,12 +102,12 @@
             app:icon="@drawable/ic_lockscreen"/>
 
         <SwitchPreferenceCompat
-            android:key="disableInLandscape"
-            android:title="@string/prefsDisableInLandscapeTitle"
-            android:summary="@string/prefsCircularBarOnlyPortraitTitle"
+            android:key="disableInFullScreen"
+            android:title="@string/prefsDisableInFullScreenTitle"
+            android:summary="@string/prefsDisableInFullScreenSummary"
             app:singleLineTitle="false"
-            android:defaultValue="false"
-            app:icon="@drawable/ic_landscape"/>
+            android:defaultValue="true"
+            app:icon="@drawable/ic_fullscreen"/>
 
     </PreferenceCategory>
 
